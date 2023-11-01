@@ -395,8 +395,8 @@
       "name": "The Sims™ 4",
       "price": 2499,
       "categories": [
-        "familiar",
-        "comida"
+        "Familiar",
+        "Comida"
       ],
       "description": "Disfruta el poder de crear y controlar a la gente en un mundo virtual en el que no hay reglas. ¡Sé poderoso y libre, diviértete y juega con la vida!",
       "images": [
@@ -427,7 +427,7 @@
       "name": "Far Cry® 5",
       "price": 449,
       "categories": [
-        "Mundo abierto",
+        "Mundo Abierto",
         "FPS",
         "Disparos"
       ],
@@ -534,7 +534,7 @@
       "images": [
         "https://cdn.cloudflare.steamstatic.com/steam/apps/360430/header.jpg?t=1602775991",
         "https://cdn.cloudflare.steamstatic.com/steam/apps/360430/ss_79a7893ab3a58f8d2e7028482810d092ac320718.600x338.jpg?t=1602775991",
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/360430/ss_ca90f4dd0ea6a3ee87518bce4958b05be9ad528e.116x65.jpg?t=1602775991"
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/360430/ss_0e69751604b920c1cb3e75b1835c428086eb3b5b.1920x1080.jpg?t=1602775991"
       ],
       "requirementsMin": {
         "so": "Windows 7 64-bit",
@@ -659,7 +659,7 @@
       "price": "Free",
       "categories": [
         "Free",
-        "Disparo",
+        "Disparos",
         "Retro"
       ],
       "description": "Cuphead es un juego de acción clásico estilo \"dispara y corre\" que se centra en combates contra el jefe. Inspirado en los dibujos animados de los años 30, los aspectos visual y sonoro están diseñados con esmero empleando las mismas técnicas de la época.",

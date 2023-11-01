@@ -72,7 +72,7 @@ nav a{
     display: flex;
     height: 100%;
     width: 300%;
-    background-color: red;
+    background-color: #10275b;
   }
   .carrouselBtn{
     border-radius: 50%;
@@ -85,6 +85,32 @@ nav a{
     background-color: var(--color2);
     box-shadow: 0px 0px 10px 4px var(--color2);
   }
+}
+
+.categoryBtn{
+  margin: 4px;
+  padding: 7px 11px;
+  border-radius: 10px;
+  background: #2044a1;
+  color: white;
+}
+.categoryBtn:hover, .categoriaActual{
+  background: #153992;
+  box-shadow:  3px 3px 15px #254695,
+               -3px -3px 15px #2f58b9;
+}
+#gamesByCategory .card {
+  border-radius: 12px;
+  background: rgb(59,30,95);
+  background: linear-gradient(125deg, rgba(59,30,95,1) 1%, rgba(67,49,127,1) 35%, rgba(19,5,57,1) 83%);
+  box-shadow:  3px 3px 15px rgb(26, 9, 45),
+              -3px -3px 15px rgb(23, 8, 43);
+  overflow: hidden;
+  color: white;
+}
+#gamesByCategory .card h5 {
+  text-shadow: 1px 1px 10px white;
+  text-shadow: -1px -1px 10px white;
 }
 
 @media screen and (min-width:768px) and (max-width:991px)  {

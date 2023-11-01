@@ -98,12 +98,17 @@
         <div id="infoFeaturedGame" class="col-12 col-md-5"></div>
       </div>
     </div>
-    <h1 class="display-5 ps-md-4 m-0 py-5 fw-bold">O explora por categoría</h1>
+    <button class="btn btn-lg btn-outline-primary" id="testbtn">Elegir entre los juegos destacados de la semana</button>
+    <h1 class="display-5 ps-md-4 m-0 pt-5 pb-3 fw-bold">O explora por categoría</h1>
     <div id="categoriesGames py-5 my-5">
       <div class="categories">
-        <button class="categoria btn btn-lg" onclick="getAllCategories()" id="testbtn">test</button>
-        <button class="categoria"></button>
-        <button class="categoria"></button>
+        <button class="categoryBtn categoriaActual btn"></button>
+        <button class="categoryBtn btn"></button>
+        <button class="categoryBtn btn"></button>
+        <button class="categoryBtn btn"></button>
+        <button class="categoryBtn btn"></button>
+      </div>
+      <div id="gamesByCategory" class="d-flex flex-wrap justify-content-center">
       </div>
     </div>
   </section>

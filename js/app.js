@@ -1,6 +1,6 @@
-import data from "../database/db.json" assert {type: 'json'}
-const products = data.products
-const users = data.users
+import data from "../database/db.json" assert {type: 'json'} // COMENTAR CON SERVIDOR LOCAL
+const products = data.products // COMENTAR CON SERVIDOR LOCAL
+const users = data.users // COMENTAR CON SERVIDOR LOCAL
 // 
 const botonComenzar= document.querySelector('.neon')
 const sectionHero = document.querySelector('.hero')
@@ -13,7 +13,7 @@ const getUsers = async ()=>{
   try {
       // let data = await fetch('http://localhost:3000/users')
       // let results = await data.json()
-      let results = users
+      let results = users // COMENTAR CON SERVIDOR LOCAL
       console.log(results);
   } catch (error) {
     console.log(error.mesage);
@@ -24,7 +24,7 @@ const getGames = async ()=>{
   try {
     // let data = await fetch('http://localhost:3000/products')
     // let results = await data.json()
-    let results = products
+    let results = products // COMENTAR CON SERVIDOR LOCAL
     return results
   } catch (error) {
     console.log(error.message);

@@ -1,0 +1,119 @@
+:root {
+  --color0: #02010A;
+  --color4: #131313;
+  --color6: #180c21;
+  --color1: #826aed;
+  --color2: #140152;
+  --color3: #dec9e9;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+footer {
+  background: linear-gradient(125deg, rgb(24, 12, 33) 2%, rgb(28, 14, 48) 51%, rgb(33, 19, 66) 65%, rgba(27,13,47,1) 88%, rgba(24,12,33) 96%);
+  
+  
+}
+
+nav{
+  min-height: 83px;
+  background-color: var(--color6);
+  box-shadow: 0px 10px 30px var(--color6); 
+  font-family: 'Roboto Mono', monospace;
+  z-index: 100;
+}
+nav .logo{
+  width: 100px;
+  position: absolute;
+  top: 13px;
+  left: 5px;
+  filter: drop-shadow(0px 0px 7px var(--color1));
+}
+.hero{
+  background: linear-gradient(125deg, rgb(24, 12, 33) 2%, rgb(28, 14, 48) 51%, rgb(33, 19, 66) 65%, rgba(27,13,47,1) 88%, rgba(24,12,33) 96%);
+  min-height: 650px;
+  max-height: 800px;
+  height: 120vh !important;
+  padding-top: 220px;
+}
+nav a{
+  color: #02010A;
+  text-shadow: 1px 1px 5px white;
+  text-shadow: 1px 1px 15px white;
+
+}
+#backgroundFilter{
+  display: block;
+  height: 50px !important;
+  position: absolute;
+  left: 0;
+  top: -25px;
+  backdrop-filter: blur(17px);
+  color: transparent;
+  user-select: none;
+}
+#gamesSection {
+  background: rgb(59,30,95);
+  background: radial-gradient(circle, rgba(59,30,95,1) 1%, rgba(40,21,63,1) 27%, rgba(29,16,44,1) 62%);
+  position: relative;
+}
+#games{
+  padding-top: 120px;
+}
+.categoriesGames {
+  background-color: #02010A;
+}
+
+#featuredGame{
+  padding: 0px;
+  border-radius: 28px;
+  background: linear-gradient(145deg, #10275b, #2d55b3);
+  box-shadow:  10px 10px 53px #254695,
+               -10px -10px 53px #2f58b9;
+
+  #carrousel{
+    position: relative;
+    padding: 0;
+    overflow: hidden; 
+  }
+  #carrouselImages{
+    display: flex;
+    height: 100%;
+    width: 300%;
+    background-color: red;
+  }
+  .carrouselBtn{
+    border-radius: 50%;
+    margin: 10px;
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+  }
+  .activo {
+    background-color: var(--color2);
+    box-shadow: 0px 0px 10px 4px var(--color2);
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:991px)  {
+  nav .logo{
+    width: 170px;
+    top: 5px;
+  }
+}
+@media screen and (min-width:992px) {
+  nav .logo{
+    width: 200px;
+    top: 0px;
+  }
+  .nav-item{
+    margin: 5px;
+    padding: 5px; 
+    border-radius: 15px;
+  }
+  .nav-item:hover {
+    background-color:#ffffff10;
+  }
+}

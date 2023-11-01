@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "gift": "fifa 2024",
+        "tipo": "juego",
+        "tiempo":"1 mes",
+        "precio": 14000,
+        "imagen":  ""
+    },
+    {
+        "id":2,
+        "gift": "GTA VI",
+        "tipo": "juego",
+        "tiempo":"1 mes",
+        "precio": 12000,
+        "imagen":  ""
+    },
+    {
+        "id":3,
+        "gift": "NFL 2024",
+        "tipo": "juego",
+        "tiempo":"1 mes",
+        "precio": 10000,
+        "imagen":  ""
+    }
+]

@@ -395,8 +395,8 @@
       "name": "The Sims™ 4",
       "price": 2499,
       "categories": [
-        "familiar",
-        "comida"
+        "Familiar",
+        "Comida"
       ],
       "description": "Disfruta el poder de crear y controlar a la gente en un mundo virtual en el que no hay reglas. ¡Sé poderoso y libre, diviértete y juega con la vida!",
       "images": [
@@ -427,7 +427,7 @@
       "name": "Far Cry® 5",
       "price": 449,
       "categories": [
-        "Mundo abierto",
+        "Mundo Abierto",
         "FPS",
         "Disparos"
       ],
@@ -659,7 +659,7 @@
       "price": "Free",
       "categories": [
         "Free",
-        "Disparo",
+        "Disparos",
         "Retro"
       ],
       "description": "Cuphead es un juego de acción clásico estilo \"dispara y corre\" que se centra en combates contra el jefe. Inspirado en los dibujos animados de los años 30, los aspectos visual y sonoro están diseñados con esmero empleando las mismas técnicas de la época.",

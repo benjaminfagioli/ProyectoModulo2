@@ -1,6 +1,6 @@
-import data from "../database/db.json" assert {type: 'json'} // COMENTAR CON SERVIDOR LOCAL
-const products = data.products // COMENTAR CON SERVIDOR LOCAL
-const users = data.users // COMENTAR CON SERVIDOR LOCAL
+import data from "../database/db.json" assert {type: 'json'} // COMENTAR CON JSON SERVER
+const products = data.products // COMENTAR CON JSON SERVER
+const users = data.users // COMENTAR CON JSON SERVER
 // 
 const botonComenzar= document.querySelector('.neon')
 const sectionHero = document.querySelector('.hero')
@@ -13,7 +13,7 @@ const getUsers = async ()=>{
   try {
       // let data = await fetch('http://localhost:3000/users')
       // let results = await data.json()
-      let results = users // COMENTAR CON SERVIDOR LOCAL
+      let results = users // COMENTAR CON JSON SERVER
       console.log(results);
   } catch (error) {
     console.log(error.mesage);
@@ -24,7 +24,7 @@ const getGames = async ()=>{
   try {
     // let data = await fetch('http://localhost:3000/products')
     // let results = await data.json()
-    let results = products // COMENTAR CON SERVIDOR LOCAL
+    let results = products // COMENTAR CON JSON SERVER
     return results
   } catch (error) {
     console.log(error.message);
@@ -40,8 +40,8 @@ const getFeaturedsGame = async() =>{
     console.log(error.message);
   }
 }
-const carrouselBtns = Array.from(document.getElementsByClassName('carrouselBtn'))
 const divGrande = document.getElementById('carrouselImages')
+const carrouselBtns = Array.from(document.getElementsByClassName('carrouselBtn'))
 carrouselBtns.forEach((punto,i) =>{
   punto.addEventListener('click', ()=>{
     let posicion = i
@@ -60,6 +60,18 @@ const printFeaturedGame = async (id)=>{
   let gameCard = document.createElement('div')
   gameCard.innerHTML =  `<h1 class= 'display-3'>${featuredsGame.name}<h1> <p class ='fs-2 d-none d-lg-block'>${featuredsGame.description}<p><p class ='fs-5 d-lg-none'>${featuredsGame.description}<p>`
   juegoDestacado.appendChild(gameCard)
-  document.getElementById('carrouselImages').innerHTML =`<img width="33.33333%"  src="${featuredsGame.images[0]}"><img width="33.33333%" src="${featuredsGame.images[1]}"><img width="33.33333%" height="100%" src=${featuredsGame.images[2]}>`
+  divGrande.innerHTML =`<img width="33.33333%"  src="${featuredsGame.images[0]}"><img width="33.33333%" src="${featuredsGame.images[1]}"><img width="33.33333%" height="100%" src=${featuredsGame.images[2]}>`
 }
 printFeaturedGame(5)
+
+let allCategories = new Set
+const getAllCategories = ()=>{
+  products.forEach((product, i) =>{
+    let categories = product.categories
+    categories.forEach(categoria => allCategories.add(categoria))
+  })
+  return Array.from(allCategories).sort()
+}
+getAllCategories()
+
+document.getElementById('testbtn').addEventListener('click', getAllCategories)

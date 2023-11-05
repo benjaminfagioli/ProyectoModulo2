@@ -95,9 +95,8 @@ nav a{
   color: white;
 }
 .categoryBtn:hover, .categoriaActual{
-  background: #153992;
-  box-shadow:  3px 3px 15px #254695,
-               -3px -3px 15px #2f58b9;
+  background: #05277d;
+  scale: 1.05;
 }
 #gamesByCategory .card {
   border-radius: 12px;
@@ -111,6 +110,30 @@ nav a{
 #gamesByCategory .card h5 {
   text-shadow: 1px 1px 10px white;
   text-shadow: -1px -1px 10px white;
+}
+
+#footerLogo{
+  filter: grayscale(1);
+}
+footer a{
+  text-decoration: none;
+}
+.bi-discord{
+  color: #404EED;
+}
+.bi-instagram {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition:all 1s;
 }
 
 @media screen and (min-width:768px) and (max-width:991px)  {

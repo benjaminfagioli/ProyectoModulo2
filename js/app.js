@@ -1,18 +1,19 @@
 import data from "../database/db.json" assert {type: 'json'} // COMENTAR CON JSON SERVER
 const products = data.products // COMENTAR CON JSON SERVER
 const users = data.users // COMENTAR CON JSON SERVER
-// 
+
 const botonComenzar= document.querySelector('.neon')
 const sectionHero = document.querySelector('.hero')
 botonComenzar.addEventListener('click', ()=> {
-  setInterval(() => {
+  setTimeout(() => {
     sectionHero.style.display = 'none'
+    window.location.hash = ''
   }, 1000);
 })
 const getUsers = async ()=>{
   try {
-      // let data = await fetch('http://localhost:3000/users')
-      // let results = await data.json()
+      // let data = await fetch('http://localhost:3000/users') //descomentar con json server
+      // let results = await data.json() //descomentar con json server
       let results = users // COMENTAR CON JSON SERVER
       console.log(results);
   } catch (error) {
@@ -22,8 +23,8 @@ const getUsers = async ()=>{
 
 const getGames = async ()=>{
   try {
-    // let data = await fetch('http://localhost:3000/products')
-    // let results = await data.json()
+    // let data = await fetch('http://localhost:3000/products') //descomentar con json server
+    // let results = await data.json() //descomentar con json server
     let results = products // COMENTAR CON JSON SERVER
     return results
   } catch (error) {
@@ -59,7 +60,7 @@ const printFeaturedGame = async (id)=>{
   let featuredsGame = (await getFeaturedsGame())[id]
   console.log(featuredsGame);
   let gameCard = document.createElement('div')
-  gameCard.innerHTML =  `<h1 class= 'display-3'>${featuredsGame.name}<h1> <p class ='fs-2 d-none d-lg-block'>${featuredsGame.description}<p><p class ='fs-5 d-lg-none'>${featuredsGame.description}<p>`
+  gameCard.innerHTML =  `<h1 class= 'display-3'>${featuredsGame.name}<h1> <p class ='fs-2 d-none d-lg-block'>${featuredsGame.description}<p><p class ='fs-5 d-lg-none'>${featuredsGame.description}<p> <div class='pb-3 fs-3 text-center text-lg-end'>${featuredsGame.categories.join(' ')}</div>`
   juegoDestacado.appendChild(gameCard)
   divGrande.innerHTML =`<img width="33.33333%"  src="${featuredsGame.images[0]}"><img width="33.33333%" src="${featuredsGame.images[1]}"><img width="33.33333%" height="100%" src=${featuredsGame.images[2]}>`
 }
@@ -72,12 +73,15 @@ const chooseFeaturedGameToPrint = async () =>{
     array.push(`${i}, ${game.name}`)
   }) 
   let posicion = prompt(`Ingresa el juego que quieres destacar:\n${array.join('\n')}`)
-  printFeaturedGame(parseInt(posicion))
+  if (posicion != undefined && posicion<6 && posicion!='') {
+    printFeaturedGame(parseInt(posicion))
+  }
 }
 document.getElementById('testbtn').addEventListener('click', chooseFeaturedGameToPrint)
 
 let allCategories = new Set
-const getAllCategories = ()=>{
+const getAllCategories = async ()=>{
+  let products = await getGames() //comentar sin json server
   products.forEach((product, i) =>{
     let categories = product.categories
     categories.forEach(categoria => allCategories.add(categoria))
@@ -88,10 +92,12 @@ const getAllCategories = ()=>{
 const btnCategories = Array.from(document.getElementsByClassName('categoryBtn'))
 const printCategoriesButtons = ()=> {
   let botones = btnCategories
-  botones.forEach( boton => {
-    let categorias = getAllCategories()
+  botones.forEach(async boton => { 
+    let categorias = await getAllCategories()
+    console.log(categorias);
     let categoriaAleatoria = categorias[parseInt(Math.random() * (categorias.length))]
     boton.innerHTML = categoriaAleatoria
+    console.log(categoriaAleatoria);
   })
 }
 printCategoriesButtons()
@@ -100,20 +106,24 @@ printCategoriesButtons()
 const containerCategoryGames = document.getElementById('gamesByCategory')
 
 
-const printCategoryGames = (i)=>{
+const printCategoryGames = async (i)=>{
   containerCategoryGames.innerHTML=''
   let botonPulsado = btnCategories[i]
   let categoriaSeleccionada = botonPulsado.innerText
+  let products = await getGames() //comentar sin json server
   let resultados = products.filter(game => game.categories.includes(categoriaSeleccionada))
   resultados.forEach((game) => {
     let gameCard = document.createElement('div')
-    gameCard.innerHTML= `<div class='p-2'> <h5 class=' display-6 fs-3 text-center my-2'> ${game.name} </h5> <p class='ms-2 text-end'>Precio: <b class='text-success'>${game.price}</b></p> </div><img src='${game.images[1]}'>`
+    gameCard.innerHTML= `<div class='p-2'> <h5 class=' display-6 fs-3 text-center my-2'> ${game.name} </h5> <p class='ms-2 text-end'><b class='text-success'>$${game.price}</b></p> </div><img src='${game.images[1]}'>`
     gameCard.classList= 'card col-md-4 col-lg-2 m-md-3 my-2 d-flex flex-column justify-content-between'
     containerCategoryGames.appendChild(gameCard)
   }
   )
 }
-printCategoryGames(0)
+setTimeout(() => {
+  printCategoryGames(0)
+}, 100);
+
 btnCategories.forEach((boton, i ) => {
   boton.addEventListener('click', ()=> {
     printCategoryGames(i) 
@@ -121,3 +131,10 @@ btnCategories.forEach((boton, i ) => {
     boton.classList.add('categoriaActual')
   })
 })
+
+const test = async ()=>{
+  let data = await fetch('../database/db.json?=users[1]')
+  let {users} = await data.json()
+  console.log(data);
+}
+test()

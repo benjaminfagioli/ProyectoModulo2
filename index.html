@@ -8,11 +8,12 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/animations.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark position-fixed w-100">
   <div class="container-fluid d-flex justify-content-lg-center">
-    <a class="navbar-brand" href="#"><img class="logo" src="img/pngwing.com.png" alt="Logo de la pagina"></a>
+    <a class="navbar-brand" href="index.html"><img class="logo" src="img/pngwing.com.png" alt="Logo de la pagina"></a>
     <button class="btn btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <label class="hamburger">
         <input type="checkbox">
@@ -79,7 +80,7 @@
       </a> 
     </div>
   </section>
-  <section id="gamesSection" class="container-fluid text-white">
+  <section id="gamesSection" class="container-fluid text-white pb-5">
     <div id="backgroundFilter">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, accusamus unde maiores minus laboriosam deserunt culpa ducimus numquam repellat explicabo quod inventore id exercitationem excepturi quo! Possimus, nobis? Esse, explicabo!</div>
     <div id="games">
@@ -98,46 +99,55 @@
         <div id="infoFeaturedGame" class="col-12 col-md-5"></div>
       </div>
     </div>
-    <button class="btn btn-lg btn-outline-primary" id="testbtn">Elegir entre los juegos destacados de la semana</button>
+    <button class="btn btn-lg btn-outline-primary d-none" id="testbtn">Elegir entre los juegos destacados de la semana</button>
     <h1 class="display-5 ps-md-4 m-0 pt-5 pb-3 fw-bold">O explora por categoría</h1>
-    <div id="categoriesGames py-5 my-5">
-      <div class="categories">
+    <div id="categoriesGames" class="row">
+      <div class="categories d-flex flex-column col-md-3 col-lg-2">
         <button class="categoryBtn categoriaActual btn"></button>
         <button class="categoryBtn btn"></button>
         <button class="categoryBtn btn"></button>
         <button class="categoryBtn btn"></button>
         <button class="categoryBtn btn"></button>
       </div>
-      <div id="gamesByCategory" class="d-flex flex-wrap justify-content-center">
+      <div id="gamesByCategory" class="d-flex flex-wrap justify-content-center col-md-9 col-lg-10">
       </div>
     </div>
   </section>
 </main>
-<!-- <footer class="container-fluid bg-dark text-white py-3">
+<footer class="container-fluid bg-dark text-white py-4 py-lg-2">
   <div class="row align-items-center">
-    <div class="col-md-2 d-flex justify-content-center pb-3 pe-md-1">
+    <div class="col-md-2 d-flex justify-content-center pb-2 pe-md-1">
       <div class="col-4 col-md-12 text-center">
-        <img src="" class="card-img img-fluid rounded-3" alt="nuestro logo">
+        <img id="footerLogo" src="../img/pngwing.com.png" class="card-img img-fluid rounded-3" alt="nuestro logo">
       </div>
     </div>
-    <div class="col-md-7 p-md-1">
-      <div class=" text-center">
-        <h2>¿Quiénes somos?</h2>
-        <p>MakePopMusic ofrece la música y los podcasts más relevantes del momento, restringidos por derechos de autor que incluyen más de 100 millones de canciones de sellos discográficos y compañias de medios.</p>
+    <div class="col-md-6 p-md-1">
+      <div class=" py-3 py-md-0 text-center">
+        <h2>© Copyright Game Boy</h2>
+        <p><a class="text-white-50" href="">Contáctanos</a></p>
       </div>
     </div>
-    <div class="col-md-3 pb-3 pb-md-0 px-md-2 pe-md-4 text-center">
-      <h4>Contáctanos</h4>
-      <p class="mb-0">¡A continuación te dejamos todas nuestras redes para estas más cerca de nosotros!</p>
-      <div class="fs-2">
-        <a target="_blank" href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
-        <a target="_blank" href="https://www.instragram.com/"><i class="bi bi-instagram"></i></a>
-        <a target="_blank" href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a>
-        <a target="_blank" href="https://gmail.com/"><i class="bi bi-envelope"></i></a>
+    <div class="col-md-4 pb-3 px-lg-5 pe-lg-4 text-center">
+      <div>
+        <div>
+          <span class="col-12 display-6 fs-4">REDES</span>
+        </div>
+        <div>
+          <a class="display-5" href="#footer">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a class="display-5" href="#footer">
+            <i class="bi bi-youtube text-danger"></i>
+          </a>
+          <a class="display-5" href="#footer">
+            <i class="bi bi-twitter-x text-black"></i>
+          </a>
+          <a class="display-5" href="#footer">
+            <i class="bi bi-discord"></i>
+          </a>
+        </div>
       </div>
-    </div>
-  </div>
-</footer> -->
+</footer>
 </body>
 <script type="module" src="js/app.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

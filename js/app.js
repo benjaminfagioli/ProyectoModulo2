@@ -94,10 +94,8 @@ const printCategoriesButtons = ()=> {
   let botones = btnCategories
   botones.forEach(async boton => { 
     let categorias = await getAllCategories()
-    console.log(categorias);
     let categoriaAleatoria = categorias[parseInt(Math.random() * (categorias.length))]
     boton.innerHTML = categoriaAleatoria
-    console.log(categoriaAleatoria);
   })
 }
 printCategoriesButtons()
@@ -132,9 +130,23 @@ btnCategories.forEach((boton, i ) => {
   })
 })
 
-const test = async ()=>{
-  let data = await fetch('../database/db.json?=users[1]')
-  let {users} = await data.json()
-  console.log(data);
+const browser = document.getElementById('browser')
+const sortByName =  async ()=> {
+    containerCategoryGames.innerHTML=''
+    let value = browser.value.toLowerCase()
+    btnCategories.forEach(boton => boton.classList.remove('categoriaActual'))
+    let products = await getGames() //comentar sin json server
+    let resultados = products.filter(game => game.name.toLowerCase().includes(value))
+    if (value != '') {
+      resultados.forEach((game) => {
+        let gameCard = document.createElement('div')
+        gameCard.innerHTML= `<div class='p-2'> <h5 class=' display-6 fs-3 text-center my-2'> ${game.name} </h5> <p class='ms-2 text-end'><b class='text-success'>$${game.price}</b></p> </div><img src='${game.images[1]}'>`
+        gameCard.classList= 'card col-md-4 col-lg-2 m-md-3 my-2 d-flex flex-column justify-content-between'
+        containerCategoryGames.appendChild(gameCard)
+      }
+      )
+    }
 }
-test()
+browser.addEventListener('keyup', sortByName)
+browser.addEventListener('focus', () => browser.placeholder= '')
+browser.addEventListener('blur', () => browser.placeholder= 'Nombre del juego')

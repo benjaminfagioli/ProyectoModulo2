@@ -28,7 +28,7 @@ nav .logo{
 .hero{
   background: linear-gradient(125deg, rgb(24, 12, 33) 2%, rgb(28, 14, 48) 51%, rgb(33, 19, 66) 65%, rgba(27,13,47,1) 88%, rgba(24,12,33) 96%);
   min-height: 650px;
-  max-height: 800px;
+  max-height: 900px;
   height: 120vh !important;
   padding-top: 220px;
 }
@@ -85,6 +85,21 @@ nav a{
     background-color: var(--color2);
     box-shadow: 0px 0px 10px 4px var(--color2);
   }
+}
+#browser{
+    padding: 7px 11px;
+    border-radius: 10px;
+    background: #ffffff5f;
+    color: white;
+    transition: background .5s;
+}
+#browser::placeholder{
+  color: white;
+}
+#browser:focus {
+  background: #ffffffa5;
+  color: #686868;
+  transition: .6s;
 }
 
 .categoryBtn{

@@ -58,7 +58,6 @@ const juegoDestacado = document.getElementById('infoFeaturedGame')
 const printFeaturedGame = async (id)=>{
   juegoDestacado.innerHTML= ''
   let featuredsGame = (await getFeaturedsGame())[id]
-  console.log(featuredsGame);
   let gameCard = document.createElement('div')
   gameCard.innerHTML =  `<h1 class= 'display-3'>${featuredsGame.name}<h1> <p class ='fs-2 d-none d-lg-block'>${featuredsGame.description}<p><p class ='fs-5 d-lg-none'>${featuredsGame.description}<p> <div class='pb-3 fs-3 text-center text-lg-end'>${featuredsGame.categories.join(' ')}</div>`
   juegoDestacado.appendChild(gameCard)
@@ -106,13 +105,14 @@ const containerCategoryGames = document.getElementById('gamesByCategory')
 
 const printCategoryGames = async (i)=>{
   containerCategoryGames.innerHTML=''
+  browser.value= ''
   let botonPulsado = btnCategories[i]
   let categoriaSeleccionada = botonPulsado.innerText
   let products = await getGames() //comentar sin json server
   let resultados = products.filter(game => game.categories.includes(categoriaSeleccionada))
   resultados.forEach((game) => {
     let gameCard = document.createElement('div')
-    gameCard.innerHTML= `<div class='p-2'> <h5 class=' display-6 fs-3 text-center my-2'> ${game.name} </h5> <p class='ms-2 text-end'><b class='text-success'>$${game.price}</b></p> </div><img src='${game.images[1]}'>`
+    gameCard.innerHTML= `<div class='p-2'> <h5 class=' display-6 fs-4 text-center my-2'> ${game.name} </h5> <p class='ms-2 mb-1 text-end'><b class='text-success'>$${game.price}</b></p><p  id='descripcionJuegos'>${game.description}</p> </div><img src='${game.images[1]}'>`
     gameCard.classList= 'card col-md-4 col-lg-2 m-md-3 my-2 d-flex flex-column justify-content-between'
     containerCategoryGames.appendChild(gameCard)
   }
@@ -140,7 +140,7 @@ const sortByName =  async ()=> {
     if (value != '') {
       resultados.forEach((game) => {
         let gameCard = document.createElement('div')
-        gameCard.innerHTML= `<div class='p-2'> <h5 class=' display-6 fs-3 text-center my-2'> ${game.name} </h5> <p class='ms-2 text-end'><b class='text-success'>$${game.price}</b></p> </div><img src='${game.images[1]}'>`
+        gameCard.innerHTML= `<div class='p-2'> <h5 class=' display-6 fs-4 text-center my-2'> ${game.name} </h5> <p class='ms-2 mb-1 text-end'><b class='text-success'>$${game.price}</b></p><p  id='descripcionJuegos'>${game.description}</p> </div><img src='${game.images[1]}'>`
         gameCard.classList= 'card col-md-4 col-lg-2 m-md-3 my-2 d-flex flex-column justify-content-between'
         containerCategoryGames.appendChild(gameCard)
       }
@@ -149,4 +149,4 @@ const sortByName =  async ()=> {
 }
 browser.addEventListener('keyup', sortByName)
 browser.addEventListener('focus', () => browser.placeholder= '')
-browser.addEventListener('blur', () => browser.placeholder= 'Nombre del juego')
+browser.addEventListener('blur', () => browser.placeholder= 'Nombre del juego') 

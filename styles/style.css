@@ -18,19 +18,12 @@ nav{
   font-family: 'Roboto Mono', monospace;
   z-index: 100;
 }
-nav .logo{
+.logo{
   width: 100px;
   position: absolute;
   top: 13px;
   left: 5px;
   filter: drop-shadow(0px 0px 7px var(--color1));
-}
-.hero{
-  background: linear-gradient(125deg, rgb(24, 12, 33) 2%, rgb(28, 14, 48) 51%, rgb(33, 19, 66) 65%, rgba(27,13,47,1) 88%, rgba(24,12,33) 96%);
-  min-height: 650px;
-  max-height: 900px;
-  height: 120vh !important;
-  padding-top: 220px;
 }
 nav a{
   color: #02010A;
@@ -38,94 +31,7 @@ nav a{
   text-shadow: 1px 1px 15px white;
 
 }
-#backgroundFilter{
-  display: block;
-  height: 50px !important;
-  position: absolute;
-  left: 0;
-  top: -25px;
-  backdrop-filter: blur(17px);
-  color: transparent;
-  user-select: none;
-}
-#gamesSection {
-  background: rgb(59,30,95);
-  background: radial-gradient(circle, rgba(59,30,95,1) 1%, rgba(40,21,63,1) 27%, rgba(29,16,44,1) 62%);
-  position: relative;
-}
-#games{
-  padding-top: 120px;
-}
-#featuredGame{
-  padding: 0px;
-  border-radius: 28px;
-  background: linear-gradient(145deg, #10275b, #2d55b3);
-  box-shadow:  10px 10px 53px #254695,
-               -10px -10px 53px #2f58b9;
 
-  #carrousel{
-    position: relative;
-    padding: 0;
-    overflow: hidden; 
-  }
-  #carrouselImages{
-    display: flex;
-    height: 100%;
-    width: 300%;
-    background-color: #10275b;
-  }
-  .carrouselBtn{
-    border-radius: 50%;
-    margin: 10px;
-    height: 15px;
-    width: 15px;
-    background-color: #fff;
-  }
-  .activo {
-    background-color: var(--color2);
-    box-shadow: 0px 0px 10px 4px var(--color2);
-  }
-}
-#browser{
-    padding: 7px 11px;
-    border-radius: 10px;
-    background: #ffffff5f;
-    color: white;
-    transition: background .5s;
-}
-#browser::placeholder{
-  color: white;
-}
-#browser:focus {
-  background: #ffffffa5;
-  color: #686868;
-  transition: .6s;
-}
-
-.categoryBtn{
-  margin: 4px;
-  padding: 7px 11px;
-  border-radius: 10px;
-  background: #2044a1;
-  color: white;
-}
-.categoryBtn:hover, .categoriaActual{
-  background: #05277d;
-  scale: 1.05;
-}
-#gamesByCategory .card {
-  border-radius: 12px;
-  background: rgb(59,30,95);
-  background: linear-gradient(125deg, rgba(59,30,95,1) 1%, rgba(67,49,127,1) 35%, rgba(19,5,57,1) 83%);
-  box-shadow:  3px 3px 15px rgb(26, 9, 45),
-              -3px -3px 15px rgb(23, 8, 43);
-  overflow: hidden;
-  color: white;
-}
-#gamesByCategory .card h5 {
-  text-shadow: 1px 1px 10px white;
-  text-shadow: -1px -1px 10px white;
-}
 
 #footerLogo{
   filter: grayscale(1);

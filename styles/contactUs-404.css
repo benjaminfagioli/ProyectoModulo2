@@ -9,6 +9,8 @@ html{
     filter: drop-shadow(0 0 5px #4d4d4d3b);
     scale: 1.2;
   }
+  min-height: 100vh;
+  padding-bottom: 200px;
 }
 #mario{
   cursor: pointer;

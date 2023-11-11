@@ -32,3 +32,8 @@ html{
     height: 100%;
   }
 }
+@media screen and (max-width: 992px) {
+  #game{ 
+  padding-top: 110px !important;
+  } 
+}

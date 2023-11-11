@@ -1,0 +1,54 @@
+html{
+  overflow-x: hidden;
+}
+#hero, #hero404 {
+  background: linear-gradient(125deg, rgb(24, 12, 33) 2%, rgb(28, 14, 48) 51%, rgb(33, 19, 66) 65%, rgba(27,13,47,1) 88%, rgba(24,12,33) 96%);
+  padding-top: 120px;
+  .gameOver{
+    width: 300px;
+    filter: drop-shadow(0 0 5px #4d4d4d3b);
+    scale: 1.2;
+  }
+}
+#mario{
+  cursor: pointer;
+}
+#errorMessage {
+  font-size: 150px;
+}
+#errorMessage, .gameOver{
+  max-width: 100%;
+}
+.gameOver{
+  margin-top: 70px;
+}
+@media screen and (min-width: 768px) {
+  #footer404{
+    position: absolute;
+    bottom: 0;
+  }
+  #hero404{
+    height: 100vh;
+  }
+}
+@media screen and (max-width:767px) {
+  #errorMessage {
+    max-block-size: 100%;
+    font-size: 70px;
+  }
+  .gameOver{
+    width: 150px !important;
+  }
+  #divMario{
+    height: 80px;
+  }
+  #goIndex{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:992px) {
+  #goIndex{
+    position: absolute;
+    opacity: .1 !important;
+  }
+}

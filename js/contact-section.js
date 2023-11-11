@@ -4,7 +4,6 @@ const btnSubmit = document.getElementById('btnSubmit')
 const form = document.getElementById('formulario')
 const response1 = document.getElementById('response1')
 const response2 = document.getElementById('response2')
-response1.classList.remove('d-none')
 
 form.addEventListener('submit', (e)=>{
   const formData = Object.fromEntries(new FormData(e.target))

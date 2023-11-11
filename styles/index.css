@@ -1,6 +1,4 @@
-html{
-  overflow-x: hidden;
-}
+
 .hero{
   background: linear-gradient(125deg, rgb(24, 12, 33) 2%, rgb(28, 14, 48) 51%, rgb(33, 19, 66) 65%, rgba(27,13,47,1) 88%, rgba(24,12,33) 96%);
   min-height: 650px;
@@ -60,7 +58,6 @@ html{
     }
   }
 }
-
 #browser{
   padding: 7px 11px;
   border-radius: 10px;
@@ -117,11 +114,12 @@ html{
   font-size: 11px;
   bottom: -150px;
   left: 0;
+  width: 247px;
   margin: auto;
   color: transparent;
   user-select: none;
-  overflow: hidden;
-  transition: all .25s;
+  /* overflow: hidden; */
+  transition: all .4s;
 }
 
 @media screen and (min-width:992px) {
@@ -134,7 +132,7 @@ html{
   #gamesByCategory .card:hover > img {
     scale: 1.3;
     z-index: 51;
-    transform: translate(0px, -15px);
+    transform: translate(0px, -12px);
     transition: all .7s;
   }
   *:hover > #descripcionJuegos{
@@ -142,12 +140,34 @@ html{
     padding: 10px;
     background-color: #000000ef;
     z-index: 52;
-    width: 247px;
     transform: translate(-24px, -287px);
     transition: all .7s;  
   }
-
+  .verMas{
+    scale: 0;
+    height: 100%;
+    padding-right: 5px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    position: absolute;
+    right: 0px;
+    opacity: 0;
+    color: gray;
+    background-color: #000000ef;
+  }
+  *:hover > .verMas {
+    scale: 1;
+    display: flex;
+    align-items: center;
+    z-index: 51;
+    opacity: 1;
+    transform: translateX(85%);
+    cursor: pointer;
+    transition: all .7s;
+    transition-delay: 1.5s;
+  }
 }
+
 @media screen and (min-width:1399px) {
   *:hover > #descripcionJuegos{
     width: 280px;

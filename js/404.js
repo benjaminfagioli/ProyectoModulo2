@@ -1,0 +1,1 @@
+document.getElementById('mario').addEventListener('click', () => window.history.go(-1))

@@ -36,11 +36,10 @@
       ],
       "description": "Cada día, millones de jugadores de todo el mundo entran en batalla como uno de los más de cien héroes de Dota. Y no importa si es su décima hora de juego o la milésima, siempre hay algo nuevo que descubrir.",
       "images": [
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/570/ss_e0a92f15a6631a8186df79182d0fe28b5e37d8cb.jpg?t=1697142820",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg?t=1628188932",
         "https://cdn.akamai.steamstatic.com/steam/apps/570/ss_b33a65678dc71cc98df4890e22a89601ee56a918.1920x1080.jpg?t=1628188932",
         "https://cdn.akamai.steamstatic.com/steam/apps/570/ss_f9ebafedaf2d5cfb80ef1f74baa18eb08cad6494.1920x1080.jpg?t=1628188932"
       ],
-      "trailer": "<iframe width='100%' src='https://www.youtube.com/embed/SmnqsdeHFT0?si=5u7TCyrbVRpcoByP' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
       "requirementsMin": {
         "so": "Windows 7",
         "processor": "Dual core from Intel or AMD at 2.8 GHz",
@@ -69,11 +68,10 @@
       ],
       "description": "Únete a la comunidad de Battlefield y vive la guerra total a través de épicas batallas multijugador por equipos o de las fascinantes historias de guerra de la campaña.",
       "images": [
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/1238840/ss_a608c2726850f7ee69d0db51282811dc33d9d083.1920x1080.jpg?t=1664070400",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/1238840/header.jpg?t=1626725027",
         "https://cdn.akamai.steamstatic.com/steam/apps/1238840/ss_c841957c9f342fac607ec0fb4c78d4defc2e26eb.1920x1080.jpg?t=1626725027",
         "https://cdn.akamai.steamstatic.com/steam/apps/1238840/ss_2aac0cbea68f0ac82154ca627e2e991fc65c9ede.1920x1080.jpg?t=1626725027"
       ],
-      "trailer": "<iframe width='100%' src='https://www.youtube.com/embed/P-UciWUiIXY?si=ibYveJxsahYxoVoF' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
       "requirementsMin": {
         "so": "64-bit Windows 7",
         "processor": "Processor (Intel): Intel Core i5 6600K / Processor (AMD): AMD FX-6350",
@@ -104,11 +102,10 @@
       ],
       "description": "Bethesda Game Studios presenta un juego completo con un mundo abierto para RV. Skyrim VR recrea la obra de fantasía épica al completo con una escala, una profundidad y una sensación de inmersión sin igual. Skyrim VR incluye todos los complementos oficiales.",
       "images": [
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/611670/ss_8439fefb3f8efdefae1dfb47aabba1c0ae616ef4.1920x1080.jpg?t=1564002443",
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/611670/ss_5a9d0f4c3a98873de13e64934e6bf46058aabb25.1920x1080.jpg?t=1564002443",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/306130/header.jpg?t=1622743433",
+        "https://cdn.akamai.steamstatic.com/steam/apps/611670/ss_3737964d741715847d62317e6598c86847cb1cfa.600x338.jpg?t=1564002443",
         "https://cdn.akamai.steamstatic.com/steam/apps/611670/ss_73a051ca47e7aba7d9307c916aa2757a47af39d4.1920x1080.jpg?t=1564002443"
       ],
-      "trailer": "<iframe width='100%' src='https://www.youtube.com/embed/fg_vqd8zAhw?si=ITs6IxP5idPid8Y0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
       "requirementsMin": {
         "so": "Windows 7/8.1/10 (64-bit versions)",
         "processor": "Intel Core i5-6600K or AMD Ryzen 5 1400 or better",
@@ -138,11 +135,10 @@
       ],
       "description": "Beat Saber es un juego rítmico de RV donde rebanas los ritmos de la palpitante música mientras vuelan hacia ti, rodeado de un mundo futurista.",
       "images": [
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/620980/ss_542d092f42c779c866167bec05c1da488bcd91f8.1920x1080.jpg?t=1698677360",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/620980/header.jpg?t=1622461922",
         "https://cdn.akamai.steamstatic.com/steam/apps/620980/ss_1881ae4f153faf0d1ccecca60fbdac5b43ad57eb.1920x1080.jpg?t=1622461922",
         "https://cdn.akamai.steamstatic.com/steam/apps/620980/ss_114dc9a9f27666b2d56801ba49a1db8fa202b6ee.1920x1080.jpg?t=1622461922"
       ],
-      "trailer": "<iframe width='100%' src='https://www.youtube.com/embed/vL39Sg2AqWg?si=W_u--PxlR4eVL_zX' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
       "requirementsMin": {
         "so": "Windows 7/8.1/10 (64bit)",
         "processor": "Intel Core i5 Sandy Bridge or equivalent",
@@ -172,11 +168,10 @@
       ],
       "description": "Los ejércitos del infierno han invadido la Tierra. Ponte en la piel del Slayer en una épica campaña para un jugador y cruza dimensiones para detener la destrucción definitiva de la humanidad. No le tienen miedo a nada... salvo a ti.",
       "images": [
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/782330/ss_9cdf861c8ac2d7fa7e1f2a88673032bc3a6c6114.1920x1080.jpg?t=1693933695",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/782330/header.jpg?t=1628183141",
         "https://cdn.akamai.steamstatic.com/steam/apps/782330/ss_7e6a2148321c8024285e3924903d8897cac95358.1920x1080.jpg?t=1628183141",
         "https://cdn.akamai.steamstatic.com/steam/apps/782330/ss_674a859ebddf5e43eb71f84c3d34872f490ee882.1920x1080.jpg?t=1628183141"
       ],
-      "trailer": "<iframe width='100%' src='https://www.youtube.com/embed/-fsz6b3IBJY?si=wUqpMhBzPss67oL6' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
       "requirementsMin": {
         "so": "64-bit Windows 7 / 64-Bit Windows 10",
         "processor": "Intel Core i5 @ 3.3 GHz or better, or AMD Ryzen 3 @ 3.1 GHz or better",
@@ -206,11 +201,10 @@
       ],
       "description": "Eres el único superviviente del Refugio 111 en un mundo destruido por la guerra nuclear. Cada segundo es una lucha por la supervivencia, y en tus manos estarán todas las decisiones. Solo tú puedes reconstruir el yermo y decidir su futuro. Bienvenido a casa.",
       "images": [
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/377160/ss_c310f858e6a7b02ffa21db984afb0dd1b24c1423.1920x1080.jpg?t=1650909928",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/377160/header.jpg?t=1588615523",
         "https://cdn.akamai.steamstatic.com/steam/apps/377160/ss_f7861bd71e6c0c218d8ff69fb1c626aec0d187cf.600x338.jpg?t=1588615523",
         "https://cdn.akamai.steamstatic.com/steam/apps/377160/ss_3830831c6ff3ab5926810e76c30386036910937f.1920x1080.jpg?t=1588615523"
       ],
-      "trailer": "<iframe width='100%' src='https://www.youtube.com/embed/XW7Of3g2JME?si=QFG3zOqPUjMzm23c' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
       "requirementsMin": {
         "so": "Windows 7/8/10 (64-bit OS required)",
         "processor": "Intel Core i5-2300 2.8 GHz/AMD Phenom II X4 945 3.0 GHz or equivalent",
@@ -240,11 +234,10 @@
       ],
       "description": "Cyberpunk 2077 es una historia de acción y aventura en mundo abierto ambientada en Night City, una megalópolis obsesionada con el poder, el glamur y la modificación corporal. Tu personaje es V, un mercenario que persigue un implante único que permite alcanzar la inmortalidad.",
       "images": [
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/ss_b20689e73e3ac19bcc5fad2c18d0353c769de144.1920x1080.jpg?t=1699262718",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg?t=1621944801",
         "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_9beef14102f164fa1163536d0fb3a51d0a2e4a3f.1920x1080.jpg?t=1621944801",
         "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_1a556842c2aadb9354e690a5c114473acc935c30.1920x1080.jpg?t=1621944801"
       ],
-      "trailer": "<iframe width='100%' src='https://www.youtube.com/embed/Q_v3ttvCVfA?si=ThPzxrR5vJCRdn25' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
       "requirementsMin": {
         "so": "Windows 7 or 10",
         "processor": "Intel Core i5-3570K or AMD FX-8310",
@@ -274,11 +267,10 @@
       ],
       "description": "Sumérgete en el mundo de Destiny 2 para explorar los misterios del sistema solar y vive la experiencia de combate de respuesta rápida de este shooter en primera persona. Consigue poderosas habilidades elementales y colecciona equipamiento único para personalizar tanto el aspecto como el estilo de juego de tu guardián.",
       "images": [
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/1085660/ss_c142f5078ace9f5e2eb2c80aa3bf768e156b4ee9.1920x1080.jpg?t=1696977153",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/1085660/header_spanish.jpg?t=1623451079",
         "https://cdn.akamai.steamstatic.com/steam/apps/1085660/ss_7fcc82f468fcf8278c7ffa95cebf949bfc6845fc.1920x1080.jpg?t=1623451079",
         "https://cdn.akamai.steamstatic.com/steam/apps/1085660/ss_a9642404e586be28f856e8f02d038828f691a5ba.1920x1080.jpg?t=1623451079"
       ],
-      "trailer": "<iframe width='100%' src='https://www.youtube.com/embed/i-7Cq7LLPr4?si=Qpa0_peRVednKCyl' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
       "requirementsMin": {
         "so": "Windows® 7 / Windows® 8.1 / Windows® 10 64-bit (latest Service Pack)",
         "processor": "Intel® Core™ i3 3250 3.5 GHz or Intel Pentium G4560 3.5 GHz / AMD FX-4350 4.2 GHz",
@@ -309,11 +301,10 @@
       ],
       "description": "Domina con estilo en Apex Legends, un juego gratuito* de acción en primera persona, donde personajes legendarios con poderosas habilidades forman equipos para luchar y lograr fortuna y gloria en los confines de la Frontera.",
       "images": [
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/1172470/ss_189df0d9b986fe9a44c389472e4f468c8bc3b615.1920x1080.jpg?t=1698958633",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/1172470/header.jpg?t=1628016281",
         "https://cdn.akamai.steamstatic.com/steam/apps/1172470/ss_e87c1af335b50029c7a6ea49ea40c096dca9d33f.1920x1080.jpg?t=1628016281",
         "https://cdn.akamai.steamstatic.com/steam/apps/1172470/ss_dd74f4ebade7828da63851f0af9c07878870e844.1920x1080.jpg?t=1628016281"
       ],
-      "trailer": "<iframe width='100%' src='https://www.youtube.com/embed/oQtHENM_GZU?si=k_lbVx3s2p9Vm-RZ' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
       "requirementsMin": {
         "so": "64-bit Windows 7",
         "processor": "AMD FX 4350 or Equivalent, Intel Core i3 6300 or Equivalent",
@@ -344,11 +335,10 @@
       ],
       "description": "Ambientado en el apocalipsis zombi, Left 4 Dead 2 (L4D2) es la esperadísima secuela del galardonado Left 4 Dead. Este FPS cooperativo de acción y terror os llevará a ti y a tus amigos por las ciudades, pantanos y cementerios del Sur Profundo, desde Savannah hasta Nueva Orleans, a lo largo de cinco extensas campañas.",
       "images": [
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/550/ss_2eae29fbdfe8e5e8999b96d8bb28c5db70507968.1920x1080.jpg?t=1675801903",
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/550/ss_ba2ea2eda245f89626277457ae2ab76ba997f46a.jpg?t=1675801903",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/550/header.jpg?t=1601578341",
+        "https://cdn.akamai.steamstatic.com/steam/apps/550/ss_2eae29fbdfe8e5e8999b96d8bb28c5db70507968.600x338.jpg?t=1601578341",
         "https://cdn.akamai.steamstatic.com/steam/apps/550/ss_1d9d6e638c8ad4b04fac0f49ca32947b31396f24.1920x1080.jpg?t=1601578341"
       ],
-      "trailer": "<iframe width='100%' src='https://www.youtube.com/embed/9XIle_kLHKU?si=8ujM5qrMff76fjuJ' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
       "requirementsMin": {
         "so": "Windows® 7 32/64-bit / Vista 32/64 / XP",
         "processor": "Pentium 4 3.0GHz",
@@ -369,7 +359,7 @@
     },
     {
       "id": 11,
-      "name": "The Walking Dead: Saints and Sinners",
+      "name": "The Walking Dead: Saints & Sinners",
       "price": 439,
       "categories": [
         "RV",
@@ -378,11 +368,10 @@
       ],
       "description": "Saints & Sinners es un juego como ningún otro en el universo de The Walking Dead. USTED impulsa cada desafío que enfrenta y cada decisión que toma. Lucha contra los muertos vivientes, recorre las ruinas inundadas de Nueva Orleans y enfréntate a decisiones desgarradoras para ti y los demás supervivientes.",
       "images": [
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/916840/ss_a461ce5966069da59600271fb8d392e6366f152a.1920x1080.jpg?t=1667002705",
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/916840/ss_8b3b23a05713d3115bb38acdc498498216a2c7b5.1920x1080.jpg?t=1667002705",
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/916840/ss_1cf17c9884788969dc638616c575f18f077bf95c.1920x1080.jpg?t=1667002705"
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/916840/header.jpg?t=1594746141",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/916840/ss_a461ce5966069da59600271fb8d392e6366f152a.600x338.jpg?t=1594746141",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/916840/ss_9e8acbe7127e45a0f50e3fd0e90163e8f3b5fe25.600x338.jpg?t=1594746141"
       ],
-      "trailer": "<iframe width='100%' src='https://www.youtube.com/embed/Gb46LStrXD4?si=l5C3-6CMYOvjRGYj' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
       "requirementsMin": {
         "so": "Windows 10",
         "processor": "Intel i5-4590 / AMD Ryzen 5 1500X or greater",
@@ -411,11 +400,10 @@
       ],
       "description": "Disfruta el poder de crear y controlar a la gente en un mundo virtual en el que no hay reglas. ¡Sé poderoso y libre, diviértete y juega con la vida!",
       "images": [
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/1222670/ss_b447d6436d2d00cd5e7c170e509b2246dfc879e8.1920x1080.jpg?t=1699288103",
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/1222670/ss_2fc938d99a1e87893852cb2d2113478190607941.1920x1080.jpg?t=1699288103",
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/1222670/ss_7d9baea1aedeeb41cb197a9e45a30f0b91b4baf9.1920x1080.jpg?t=1699288103"
+        "https://cdn.akamai.steamstatic.com/steam/apps/1222670/header.jpg?t=1625243769",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/1222670/ss_deff01316e808691dc6fd25f588c161ffa7ca72a.600x338.jpg?t=1625243769",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/1222670/ss_537683e5e29c2d6d02c64aa7321dcb26166f7d82.600x338.jpg?t=1625243769"
       ],
-      "trailer": "<iframe width='100%' src='https://www.youtube.com/embed/pQjzyPYovdU?si=IDQLCM1dHSAtReGM' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
       "requirementsMin": {
         "so": "64 Bit Required. Windows 7 (SP1), Windows 8, Windows 8.1, or Windows 10",
         "processor": "1.8 GHz Intel Core 2 Duo, AMD Athlon 64 Dual-Core 4000+ or equivalent (For computers using built-in graphics chipsets, the game requires 2.0 GHz Intel Core 2 Duo, 2.0 GHz AMD Turion 64 X2 TL-62 or equivalent)",
@@ -445,11 +433,10 @@
       ],
       "description": "Bienvenido a Hope County, Montana, la tierra de los valientes y de la libertad, pero también de la secta apocalíptica conocido como \" Puerta del Edén\". Enfréntate a Joseph Seed, líder de la secta, y sus hermanos para liberar a la comunidad de Hope.",
       "images": [
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/552520/ss_64406d71653c589377e8c589ece9e3941b6fff50.1920x1080.jpg?t=1694554810",
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/552520/ss_a52c732d62a26d20bcfb0525929178749392f4fc.1920x1080.jpg?t=1694554810",
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/552520/ss_60894d685a0f3488ceaf0592625fc904aa2bfeb1.1920x1080.jpg?t=1694554810"
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/552520/header.jpg?t=1628209646",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/552520/ss_a52c732d62a26d20bcfb0525929178749392f4fc.600x338.jpg?t=1628209646",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/552520/ss_c26333a1e53aad3d6a8cc0a347e9ac5e0dd98587.600x338.jpg?t=1628209646"
       ],
-      "trailer": "<iframe width='100%' src='https://www.youtube.com/embed/4hVME3O9wf4?si=XkOnolF44JLeTBbV' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
       "requirementsMin": {
         "so": "Windows 7 SP1, Windows 8.1, Windows 10 (64-bit versions only)",
         "processor": "Intel Core i5-2400 @ 3.1 GHz or AMD FX-6300 @ 3.5 GHz or equivalent",
@@ -479,11 +466,10 @@
       ],
       "description": "Age of Empires II: Definitive Edition incluye \"Los últimos khanes\", que incorpora 3 campañas y 4 civilizaciones nuevas. Las frecuentes actualizaciones contienen eventos, contenido adicional, nuevos modos de juego y funciones mejoradas. ",
       "images": [
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/813780/ss_ab2692aa33171bc61378dd59efa89e2ff86e02a6.1920x1080.jpg?t=1699054682",
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/813780/ss_ea0429a12f9d65f3e6b5384e0117fceef2109e45.1920x1080.jpg?t=1699054682",
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/813780/ss_8f30a6ae45244f12ebdb48f99393aa9c93aaa398.1920x1080.jpg?t=1699054682"
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/813780/header.jpg?t=1625261006",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/813780/ss_e2fc6cfd934c8150cf751955d44deb688ab3c7d0.600x338.jpg?t=1625261006",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/813780/ss_83253675c7af3ad5f3f2c1dc2c43c667000e0c4a.600x338.jpg?t=1625261006"
       ],
-      "trailer": "<iframe width='100%' src='https://www.youtube.com/embed/ZOgBVR21pWg?si=xCroCfZOrHUnOK0U' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
       "requirementsMin": {
         "so": "Windows 10 64bit",
         "processor": "Intel Core 2 Duo or AMD Athlon 64x2 5600+",
@@ -513,9 +499,9 @@
       ],
       "description": " BioShock es un shooter distinto a todos, lleno de armas y tácticas nunca vistas. Tendrás un completo arsenal a tu disposición: desde sencillos revólveres a lanzagranadas y lanzadores de productos químicos, pero también estarás obligado a modificar tu ADN para crear un arma mucho más mortífera...",
       "images": [
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/7670/0000002508.1920x1080.jpg?t=1568739889",
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/7670/0000002509.1920x1080.jpg?t=1568739889",
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/7670/0000002513.1920x1080.jpg?t=1568739889"
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/7670/header.jpg?t=1568739889",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/7670/0000002508.600x338.jpg?t=1568739889",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/7670/0000002509.600x338.jpg?t=1568739889"
       ],
       "requirementsMin": {
         "so": "Windows XP (con Service Pack 2) o Windows Vista",
@@ -525,7 +511,6 @@
         "directx": "Version 9.0c",
         "storage": "8 GB de espacio libre en disco duro"
       },
-      "trailer" : "<iframe width='100%' src='https://www.youtube.com/embed/rrqfPG4ZcAA?si=ii7P4jxGuK08JRIG' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
       "requirementsMax": {
         "so": "Windows XP (con Service Pack 2) o Windows Vista",
         "processor": "Intel Core 2 Duo processor",
@@ -547,11 +532,10 @@
       ],
       "description": "Es 1968, las reglas han cambiado. Tras años en Vietnam, Lincoln Clay ha llegado a esta conclusión: la familia no son aquellos con los que has nacido, sino aquellos por los que estás dispuesto a morir.",
       "images": [
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/360430/ss_46e353b74657a90375e889012bc8eeb35801fccb.1920x1080.jpg?t=1602775991",
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/360430/ss_b94ae5618c3f0112bb178bc97941e5fcdd0158eb.1920x1080.jpg?t=1602775991",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/360430/header.jpg?t=1602775991",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/360430/ss_79a7893ab3a58f8d2e7028482810d092ac320718.600x338.jpg?t=1602775991",
         "https://cdn.cloudflare.steamstatic.com/steam/apps/360430/ss_0e69751604b920c1cb3e75b1835c428086eb3b5b.1920x1080.jpg?t=1602775991"
       ],
-      "trailer": "<iframe width='100%' src='https://www.youtube.com/embed/kmKOLvnullE?si=vB13JqsGwq0fAu2A' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
       "requirementsMin": {
         "so": "Windows 7 64-bit",
         "processor": "Intel I5-2500K, AMD FX-8120",
@@ -581,11 +565,10 @@
       ],
       "description": "Esos intrépidos invertebrados regresan con una venganza en el amado Worms ™ Armageddon. ¡Es una lata de gusanos completamente nueva! Es una diversión tremenda que puedes disfrutar solo o con todos tus amigos.",
       "images": [
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/217200/ss_45b7244cd34b97ed08adde4fc462304f137891d1.1920x1080.jpg?t=1682330795",
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/217200/ss_3476a7419b1f218e1ce267b7c6a1599c005051ff.1920x1080.jpg?t=1682330795",
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/217200/ss_e8489d04392da9438aff33f43d1c6a942e29f6c4.1920x1080.jpg?t=1682330795"
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/217200/header.jpg?t=1609928432",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/217200/ss_45b7244cd34b97ed08adde4fc462304f137891d1.600x338.jpg?t=1609928432",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/217200/ss_ab1831e65cc9c429a8527c7c12690db0be197394.600x338.jpg?t=1609928432"
       ],
-      "trailer": "<iframe width='100%' src='https://www.youtube.com/embed/05SbgPklysM?si=bDRsuVuBAp0tF5dd' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
       "requirementsMin": {
         "so": "Windows XP or above",
         "processor": "Intel Core 2 Duo, AMD 64x2 or above",
@@ -615,11 +598,10 @@
       ],
       "description": "Vence a la corporación CELL con potentes armas y exclusivos módulos del nanotraje, que se desbloquearán al instante con la Edición Digital Deluxe. Activada compatibilidad con lector de pantallas.",
       "images": [
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/2096610/ss_e021f1aa86abae2b94ef5d11b1763f27d029cf06.1920x1080.jpg?t=1669031800",
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/2096610/ss_aa4bd9e63e9742862ea011114bfc352ea1c3e05d.1920x1080.jpg?t=1669031800",
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/2096610/ss_61341fc9ffec0c1edc3a588fe79aecf07c074ffe.1920x1080.jpg?t=1669031800"
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/1282690/header.jpg?t=1614948961",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/1282690/ss_2b1015c49e996ddb3193ca74fb7b553a7fc60895.600x338.jpg?t=1614948961",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/1282690/ss_04a3b91fd8a9f970325310292ccf782a6efcc43a.600x338.jpg?t=1614948961"
       ],
-      "trailer": "<iframe width='100%' src='https://www.youtube.com/embed/JWvgETOo5ek?si=l8YBn4dIkkcHCwcX' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
       "requirementsMin": {
         "so": "Windows 7 or Windows 8",
         "processor": "2.4 GHz Intel Core 2 Duo / 2.7 GHz AMD Athlon 64X2",
@@ -653,7 +635,6 @@
         "https://cdn.cloudflare.steamstatic.com/steam/apps/1173770/ss_ab96649204844d016461c3e784649f239d7e529b.600x338.jpg?t=1628530198",
         "https://cdn.cloudflare.steamstatic.com/steam/apps/1173770/ss_a905f6649e07d5144603d9e7f01e00e924f60e8c.600x338.jpg?t=1628530198"
       ],
-      "trailer": "<iframe width='100%' src='https://www.youtube.com/embed/XdLsIQEGj-E?si=2RoCoHBkY_zgHbGo' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
       "requirementsMin": {
         "so": "Windows 8.1 64-bit / Windows 10 64-bit (ver.1909 and above)",
         "processor": " AMD A8-7600 / Intel® Core™ i3-2105",
@@ -687,7 +668,6 @@
         "https://cdn.cloudflare.steamstatic.com/steam/apps/268910/ss_874f2d27a9120ee60cbce0c7bd4085525fd09b26.600x338.jpg?t=1589281999",
         "https://cdn.cloudflare.steamstatic.com/steam/apps/268910/ss_615455299355eaf552c638c7ea5b24a8b46e02dd.600x338.jpg?t=1589281999"
       ],
-      "trailer": "<iframe width='100%' src='https://www.youtube.com/embed/NN-9SQXoi50?si=qJ2n3h5U6PcMzbES' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
       "requirementsMin": {
         "so": "Windows 7",
         "processor": "Intel Core2 Duo E8400, 3.0GHz or AMD Athlon 64 X2 6000+, 3.0GHz or higher",

@@ -1,4 +1,4 @@
-// try {
+try {
   let game = JSON.parse(localStorage.getItem('Juego Seleccionado'))
   let container = document.getElementById('printGameContainer')
   let gameCard = document.createElement('div')
@@ -33,8 +33,7 @@
 
   document.querySelector('.price').innerHTML = `$${game.price}`
   // document.querySelector('.payment-button').addEventListener('click', ()=> window.location.replace('./404.html'));
-
-// } catch (error) {
-//   // window.location.replace('../views/404.html') 
-//   console.log(error.message);
-// }
+  document.title = `${game.name} - Game Boy Store`
+} catch (error) {
+  window.location.replace('../views/404.html') 
+}

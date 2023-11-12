@@ -1,0 +1,12 @@
+#hero{
+  background: rgb(44,147,173);
+  background: linear-gradient(125deg, rgba(44,147,173,1) 23%, rgba(31,71,158,1) 66%);
+  min-height: 100vh;
+  padding-top: 110px;
+}
+@media screen and (min-width:992px) {
+  footer{
+    position: absolute;
+    bottom: 0;
+  }
+}

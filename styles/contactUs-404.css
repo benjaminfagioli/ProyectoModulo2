@@ -10,7 +10,6 @@ html{
     scale: 1.2;
   }
   min-height: 100vh;
-  padding-bottom: 200px;
 }
 #mario{
   cursor: pointer;

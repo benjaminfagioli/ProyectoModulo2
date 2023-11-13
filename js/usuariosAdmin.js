@@ -97,3 +97,8 @@ cargarTabla();
 
 document.querySelector("#formGift").addEventListener("submit", agregarGift);
 document.querySelector("#formModal").addEventListener("submit", giftUpdate);
+
+document.getElementById('cerrarSesion').addEventListener('click',() => {
+  localStorage.removeItem('Usuario Actual')
+  window.location.replace('../index.html')
+})

@@ -1,0 +1,191 @@
+[
+  {
+    "id": 1,
+    "gift": "Dota 2",
+    "tipo": "Multijugador",
+    "tiempo": "indefinido",
+    "precio": 250,
+    "Descripción": "Cada día, millones de jugadores de todo el mundo entran en batalla como uno de los más de cien héroes de Dota. Y no importa si es su décima hora de juego o la milésima, siempre hay algo nuevo que descubrir.",
+    "imagen":  "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg?t=1628188932"
+   
+  },
+  {
+    "id": 2,
+    "gift": "Battlefield 1 ",
+    "tipo": "Multijugador",
+    "tiempo": "3 meses",
+    "precio": 4800,
+    "Descripción": "Únete a la comunidad de Battlefield y vive la guerra total a través de épicas batallas multijugador por equipos o de las fascinantes historias de guerra de la campaña.",
+    "imagen": "https://cdn.cloudflare.steamstatic.com/steam/apps/1238840/header.jpg?t=1626725027"
+  },
+  {
+    "id": 3,
+    "gift": "The Elder Scrolls V: Skyrim VR",
+    "tipo": "Aventuras",
+    "tiempo": "1 mes",
+    "precio": 41320,
+    "Descripción": "Bethesda Game Studios presenta un juego completo con un mundo abierto para RV. Skyrim VR recrea la obra de fantasía épica al completo con una escala, una profundidad y una sensación de inmersión sin igual. Skyrim VR incluye todos los complementos oficiales.",
+    "imagen": "https://cdn.cloudflare.steamstatic.com/steam/apps/306130/header.jpg?t=1622743433"
+  },
+  {
+    "id": 4,
+    "gift": "Beat Saber",
+    "tipo":  "Música",
+    "tiempo": "1 mes",
+    "precio": 56880,
+    "Descripción": "Beat Saber es un juego rítmico de RV donde rebanas los ritmos de la palpitante música mientras vuelan hacia ti, rodeado de un mundo futurista.",
+    "imagen":    "https://cdn.cloudflare.steamstatic.com/steam/apps/620980/header.jpg?t=1622461922"
+  },
+  {
+    "id": 5,
+    "gift": "DOOM Eternal",
+    "tipo":  "Acción",
+    "tiempo": "1 mes",
+    "precio": 27603,
+    "Descripción": "Los ejércitos del infierno han invadido la Tierra. Ponte en la piel del Slayer en una épica campaña para un jugador y cruza dimensiones para detener la destrucción definitiva de la humanidad. No le tienen miedo a nada... salvo a ti.",
+    "imagen": "https://cdn.cloudflare.steamstatic.com/steam/apps/782330/header.jpg?t=1628183141"
+  },
+  {
+    "id": 6,
+    "gift": "Fallout 4",
+    "tipo": "Suscripción",
+    "tiempo": "3 meses",
+    "precio": 17000,
+    "Descripción": "Eres el único superviviente del Refugio 111 en un mundo destruido por la guerra nuclear. Cada segundo es una lucha por la supervivencia, y en tus manos estarán todas las decisiones. Solo tú puedes reconstruir el yermo y decidir su futuro. Bienvenido a casa.",
+    "imagen": "https://cdn.cloudflare.steamstatic.com/steam/apps/377160/header.jpg?t=1588615523"
+  },
+  {
+    "id": 7,
+    "gift": "Cyberpunk 2077",
+    "tipo": "Mundo Abierto",
+    "tiempo": "1 mes",
+    "precio": 24000,
+    "Descripción": "Cyberpunk 2077 es una historia de acción y aventura en mundo abierto ambientada en Night City, una megalópolis obsesionada con el poder, el glamur y la modificación corporal. Tu personaje es V, un mercenario que persigue un implante único que permite alcanzar la inmortalidad.",
+     "imagen": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg?t=1621944801"
+  },
+  {
+    "id": 8,
+    "gift": "Destiny 2",
+    "tipo": "Mundo Abierto",
+    "tiempo": "indefinido",
+    "precio": 250,
+    "Descripción": "Sumérgete en el mundo de Destiny 2 para explorar los misterios del sistema solar y vive la experiencia de combate de respuesta rápida de este shooter en primera persona. Consigue poderosas habilidades elementales y colecciona equipamiento único para personalizar tanto el aspecto como el estilo de juego de tu guardián.",
+    "imagen": "https://cdn.cloudflare.steamstatic.com/steam/apps/1085660/header_spanish.jpg?t=1623451079"
+  },
+  {
+    "id": 9,
+    "gift": "Apex Legends™",
+    "tipo":  "Multijugador",
+    "tiempo": "indefinido",
+    "precio": 300,
+    "Descripción": "Domina con estilo en Apex Legends, un juego gratuito* de acción en primera persona, donde personajes legendarios con poderosas habilidades forman equipos para luchar y lograr fortuna y gloria en los confines de la Frontera.",
+    "imagen": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172470/header.jpg?t=1628016281"
+  },
+  {
+    "id": 10,
+    "gift": "Left 4 Dead 2",
+    "tipo": "Zombie",
+    "tiempo": "3 meses",
+    "precio": 5000,
+    "Descripción": "Ambientado en el apocalipsis zombi, Left 4 Dead 2 (L4D2) es la esperadísima secuela del galardonado Left 4 Dead. Este FPS cooperativo de acción y terror os llevará a ti y a tus amigos por las ciudades, pantanos y cementerios del Sur Profundo, desde Savannah hasta Nueva Orleans, a lo largo de cinco extensas campañas.",
+    "imagen": "https://cdn.cloudflare.steamstatic.com/steam/apps/550/header.jpg?t=1601578341"
+  },
+  {
+    "id": 11,
+    "gift": "The Walking Dead: Saints & Sinners",
+    "tipo": "Acción",
+    "tiempo": "5 meses",
+    "precio": 4000,
+    "Descripción": "Saints & Sinners es un juego como ningún otro en el universo de The Walking Dead. USTED impulsa cada desafío que enfrenta y cada decisión que toma. Lucha contra los muertos vivientes, recorre las ruinas inundadas de Nueva Orleans y enfréntate a decisiones desgarradoras para ti y los demás supervivientes.",
+    "imagen": "https://cdn.cloudflare.steamstatic.com/steam/apps/916840/header.jpg?t=1594746141"
+  },
+
+  {
+    "id": 12,
+    "gift": "The Sims™ 4",
+    "tipo": "Familiar",
+    "tiempo": "1 mes",
+    "precio": 19000,
+    "Descripción": "Disfruta el poder de crear y controlar a la gente en un mundo virtual en el que no hay reglas. ¡Sé poderoso y libre, diviértete y juega con la vida!",
+    "imagen":  "https://cdn.cloudflare.steamstatic.com/steam/apps/1222670/ss_deff01316e808691dc6fd25f588c161ffa7ca72a.600x338.jpg?t=1625243769"
+  },
+  {
+    "id": 13,
+    "gift": "Far Cry® 5",
+    "tipo": "Mundo Abierto",
+    "tiempo": "1 mes",
+    "precio": 24000,
+    "Descripción": "Bienvenido a Hope County, Montana, la tierra de los valientes y de la libertad, pero también de la secta apocalíptica conocido como \" Puerta del Edén\". Enfréntate a Joseph Seed, líder de la secta, y sus hermanos para liberar a la comunidad de Hope.",
+    "imagen": "https://cdn.cloudflare.steamstatic.com/steam/apps/552520/header.jpg?t=1628209646"
+  },
+
+  {
+    "id": 14,
+    "gift": "Age of Empires II: Definitive Edition",
+    "tipo": "Clasico",
+    "tiempo": "indefinido",
+    "precio":  1000,
+    "Descripción": "Age of Empires II: Definitive Edition incluye \"Los últimos khanes\", que incorpora 3 campañas y 4 civilizaciones nuevas. Las frecuentes actualizaciones contienen eventos, contenido adicional, nuevos modos de juego y funciones mejoradas. ",
+    "imagen": "https://cdn.cloudflare.steamstatic.com/steam/apps/813780/header.jpg?t=1625261006"
+  },
+  {
+    "id": 15,
+    "gift": "BioShock™",
+    "tipo": "Acción",
+    "tiempo": "1 mes",
+    "precio": 300,
+    "Descripción": " BioShock es un shooter distinto a todos, lleno de armas y tácticas nunca vistas. Tendrás un completo arsenal a tu disposición: desde sencillos revólveres a lanzagranadas y lanzadores de productos químicos, pero también estarás obligado a modificar tu ADN para crear un arma mucho más mortífera...",
+    "imagen": "https://cdn.cloudflare.steamstatic.com/steam/apps/7670/header.jpg?t=1568739889"
+  },
+
+  {
+    "id": 16,
+    "gift": "Mafia III: Definitive Edition",
+    "tipo": "Acción",
+    "tiempo": "3 meses",
+    "precio": 30000,
+    "Descripción": "Es 1968, las reglas han cambiado. Tras años en Vietnam, Lincoln Clay ha llegado a esta conclusión: la familia no son aquellos con los que has nacido, sino aquellos por los que estás dispuesto a morir.",
+     "imagen": "https://cdn.cloudflare.steamstatic.com/steam/apps/360430/header.jpg?t=1602775991"
+  },
+  {
+    "id": 17,
+    "gift": "Worms Armageddon",
+    "tipo": "Acción",
+    "tiempo": "1 mes",
+    "precio": 300,
+    "Descripción": "Esos intrépidos invertebrados regresan con una venganza en el amado Worms ™ Armageddon. ¡Es una lata de gusanos completamente nueva! Es una diversión tremenda que puedes disfrutar solo o con todos tus amigos.",
+    "imagen":"https://cdn.cloudflare.steamstatic.com/steam/apps/217200/header.jpg?t=1609928432"
+
+  },
+  {
+    "id": 18,
+    "gift": "Crysis® 3",
+    "tipo":  "Acción",
+    "tiempo": "1 mes",
+    "precio": 1399,
+    "Descripción": "Vence a la corporación CELL con potentes armas y exclusivos módulos del nanotraje, que se desbloquearán al instante con la Edición Digital Deluxe. Activada compatibilidad con lector de pantallas.",
+   "imagen":"https://cdn.cloudflare.steamstatic.com/steam/apps/1282690/header.jpg?t=1614948961"
+
+  },
+  {
+    "id": 19,
+    "gift": "FINAL FANTASY",
+    "tipo": "Clasico",
+    "tiempo": "1 mes",
+    "precio": 300,
+    "Descripción": "¡El FINAL FANTASY original cobra vida con nuevos gráficos y audio ! ¡Una versión remodelada en 2D del primer título de la célebre serie FINAL FANTASY! Disfruta de una historia clásica narrada a través de unos gráficos retro fascinantes.",
+     "imagen":"https://cdn.cloudflare.steamstatic.com/steam/apps/1173770/header.jpg?t=1628530198"
+
+  },
+
+  {
+    "id": 20,
+    "gift": "Cuphead",
+    "tipo": "Clasico",
+    "tiempo": "indefinido",
+    "precio": 250,
+    "imagen": "https://cdn.cloudflare.steamstatic.com/steam/apps/268910/header.jpg?t=1589281999"
+
+  }
+ 
+]

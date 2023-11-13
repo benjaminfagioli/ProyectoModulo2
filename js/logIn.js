@@ -65,3 +65,6 @@ const mostrarErrores = (nombre, apellido, email, contraseña) =>{
   }
   $errorRegister.innerHTML = message.join('. ')
 }
+
+const inputs =  Array.from(document.getElementsByClassName('flip-card__input'))
+inputs.forEach(input => input.setAttribute('autocomplete', 'off'))

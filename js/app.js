@@ -197,3 +197,4 @@ botonesMasInfo.forEach((boton,i) => {
 }, 100);
 }
 
+// si tengo una sesion iniciada reemplazar el ingresar con un Mi cuenta

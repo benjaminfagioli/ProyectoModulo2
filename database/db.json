@@ -1,9 +1,9 @@
 {
   "users": [
     {
-      "email": "aws@gmail.com.ar",
-      "name": "jeff ",
-      "lastName": "bezos",
+      "email": "admin@gmail.com",
+      "name": "Admin",
+      "lastName": "Prueba",
       "password": "Asd12345",
       "passwordCheck": "Asd12345",
       "termsAndConditions": false,
@@ -12,9 +12,9 @@
       "disabled": false
     },
     {
-      "email": "test@gmail.com.ar",
-      "name": "Cami craaack",
-      "lastName": "Gonella",
+      "email": "user@gmail.com",
+      "name": "Usuario",
+      "lastName": "Prueba",
       "password": "Asd12345",
       "passwordCheck": "Asd12345",
       "termsAndConditions": false,

@@ -1,0 +1,10 @@
+main{
+  padding-top: 120px;
+  min-height: 100vh;
+  background: rgb(44,147,173);
+  background: linear-gradient(125deg, rgba(44,147,173,1) 23%, rgba(31,71,158,1) 66%);
+}
+footer{
+  position: absolute;
+  bottom: 0;
+}

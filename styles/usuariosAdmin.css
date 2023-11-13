@@ -1,0 +1,11 @@
+body {
+    background-image: url("../assets/fondo.png");
+    background-repeat: no-repeat-y;
+    background-position: right top;
+    text-align: justify;   
+}
+
+main{
+    padding-top: 120px;
+    overflow-x: hidden;
+}

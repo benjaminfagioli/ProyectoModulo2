@@ -156,7 +156,7 @@ const sortByName =  async ()=> {
     if (value != '') {
       resultados.forEach((game) => {
         let gameCard = document.createElement('div')
-        gameCard.innerHTML= `<div class='p-2'> <h5 class='gameName display-6 fs-4 text-center my-2'>${game.name}</h5> <p class='ms-2 mb-1 text-end'><b class='text-primary'>$${game.price} <span class='masInfo d-block d-lg-none'>Mas info</span></b></p>  <p id='descripcionJuegos'>${game.description}<span class='verMas d-none d-lg-block'>Ver más</span></p> </div><img src='${game.images[1]}'>`
+        gameCard.innerHTML= `<div class='p-2'> <h5 class='gameName display-6 fs-4 text-center my-2'>${game.name}</h5> <p class='ms-2 mb-1 text-end'><b class='text-primary'>$${game.price}<span class='masInfo d-block d-lg-none'>Mas info</span></b></p><p  id='descripcionJuegos'>${game.description}<span class='verMas'>Ver más</span></p> </div><img src='${game.images[1]}'>`
         gameCard.classList= 'card cardGame col-md-4 col-lg-2 m-md-3 my-2 d-flex flex-column justify-content-between'
         containerCategoryGames.appendChild(gameCard)
       }
@@ -197,4 +197,13 @@ botonesMasInfo.forEach((boton,i) => {
 }, 100);
 }
 
-// si tengo una sesion iniciada reemplazar el ingresar con un Mi cuenta
+let usuario = JSON.parse(localStorage.getItem('Usuario Actual')) || null
+if (usuario) {
+  if (usuario.name != 'Admin') {
+    document.getElementById('ingresar').innerHTML = '<a class="nav-link text-white" href="./views/miCuenta.html">Mi cuenta <a>'
+    console.log(usuario);
+  } else{
+    document.getElementById('ingresar').innerHTML = '<a class="nav-link text-white" href="./views/juegosAdmin.html">Administrar página <a>'
+  }
+  
+}

@@ -1,28 +1,154 @@
 {
   "users": [
     {
+      "id": 1,
       "email": "admin@gmail.com",
       "name": "Admin",
+      "gift": "Admin",
+      "tipo": "Admin",
+      "tiempo": "Eterno",
       "lastName": "Prueba",
       "password": "Asd12345",
-      "passwordCheck": "Asd12345",
-      "termsAndConditions": false,
-      "date": "2023-10-05T22:57:38.863Z",
-      "id": 1,
-      "disabled": false
-    },
-    {
+      "passwordCheck": "Asd12345"
+    },{
+      "id": 2,
       "email": "user@gmail.com",
       "name": "Usuario",
       "lastName": "Prueba",
       "password": "Asd12345",
       "passwordCheck": "Asd12345",
-      "termsAndConditions": false,
-      "date": "2023-10-05T22:57:38.863Z",
-      "id": 2,
-      "disabled": false
+      "precio": 36000,
+      "tiempo": "Anual"
+    },{
+      "id": 13,
+      "email": "EnriqueM@gmail.com.ar",
+      "gift": "Enrique Moreno",
+      "tipo": "Suscripción",
+      "password": "Asd12345",
+      "passwordCheck": "Asd12345",
+      "precio": 36000,
+      "tiempo": "Anual"
+    },
+    {
+      "id": 4,
+      "email": "juanpi@gmail.com.ar",
+      "gift": "Juan Pablo",
+      "tipo": "Suscripción",
+      "password": "Asd12348",
+      "passwordCheck": "Asd12348",
+      "precio": 15000,
+      "tiempo": "3 meses"
+    },
+    {
+      "id": 5,
+      "email": "julianorfa@gmail.com.ar",
+      "gift": "Julian Orfali ",
+      "tipo": "Suscripción",
+      "password": "5sD12345",
+      "passwordCheck": "5sD12345",
+      "disabled": false,
+      "precio": 15000,
+      "tiempo": "3 meses"
+    },
+    { "id": 6,
+      "email": "masitapizza@gmail.com.ar",
+      "gift": "Sergio Massa",
+      "tipo": "Suscripción",
+      "password": "Vd12345",
+      "passwordCheck": "Vsd12345",
+      "disabled": false,
+      "precio": 20000 ,
+      "tiempo": "5 meses"
+    },
+    {   
+      "id": 7,
+    "email": "leon@gmail.com.ar",
+    "gift": "Javier Milei ",
+    "tipo": "Suscripción",
+    "password": "Ysd12345",
+    "passwordCheck": "Ysd12345",
+    "disabled": false,
+    "precio": 15000,
+    "tiempo": "3 meses"
+  },
+  {  
+    "id": 8,
+    "email": "el10@gmail.com.ar",
+    "gift": "Lionel Messi ",
+    "tipo": "Suscripción",
+    "password": "Osd12345",
+    "passwordCheck": "Osd12345",
+    "disabled": false,
+    "precio": 36000,
+    "tiempo": "Anual"
+  },
+  { 
+      "id": 9,
+    "email": "torito@gmail.com.ar",
+    "gift": "Lautaro Martinez ",
+    "tipo": "Suscripción",
+    "password": "Psd12345",
+    "passwordCheck": "Psd12345",
+    "disabled": false,
+    "precio": 20000 ,
+      "tiempo": "5 meses"
+  },
+  {  
+    "id": 10,
+    "email": "mikey@gmail.com.ar",
+    "gift": "Miguel Safari ",
+    "tipo": "Suscripción",
+    "password": "Gsd12345",
+    "passwordCheck": "Gsd12345",
+    "disabled": false,
+    "precio": 15000,
+    "tiempo": "3 meses"
+    },
+  {  
+    "id": 11,
+    "email": "rorolu@gmail.com.ar",
+    "gift": "Lucas Rodriguez ",
+    "tipo": "Suscripción",
+    "password": "Hsd12345",
+    "passwordCheck": "Hsd12345",
+    "disabled": false,
+    "precio": 36000,
+    "tiempo": "Anual"
+  }, 
+  {
+    "id": 12,
+    "email": "beto@gmail.com.ar",
+    "gift": "Alberto Jimenez",
+      "tipo": "Suscripción",
+    "password": "Jsd12345",
+    "passwordCheck": "Jsd12345",
+    "disabled": false,
+    "precio": 20000 ,
+      "tiempo": "5 meses"
+    }, 
+    {
+    "id": 13,
+    "email": "AliV@gmail.com.ar",
+    "gift": "Alicia Vega ",
+    "tipo": "Suscripción",
+    "password": "Esd12345",
+    "passwordCheck": "Esd12345",
+    "disabled": false,
+    "precio": 20000 ,
+    "tiempo": "5 meses"
+    },
+    {
+    "id": 14,
+    "email": "antoniortiz@gmail.com.ar",
+    "gift": "Antonio Ortiz",
+    "tipo": "Suscripción",
+    "password": "Rsd12345",
+    "passwordCheck": "Rsd12345",
+    "disabled": false,
+    "precio": 36000,
+    "tiempo": "Anual"
     }
-  ],
+    ],
   "products": [
     {
       "id": 1,
